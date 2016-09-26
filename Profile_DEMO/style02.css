@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
+
 @font-face {
     font-family: MyFont;
     src: local(微軟正黑體), url(fonts/fontawesome-webfont);
@@ -73,13 +77,22 @@ body {
     background-color: white;
     height: 300px;
 }
+
+
 /*advanture story*/
- .container_profile{float:left;width:100%;}
- .col-md-4{margin:20px 10px;width:500px;color:#FFF;float:rignt;padding-right:200px; font-family: MyFont;}
 
+.container_profile {
+    float: left;
+    width: 100%;
+}
 
- 
- .btn:hover {
-     background-color: #b7b7b7;
-     color: black;
- }
+.col-md-4 {
+    color: #FFF;
+    float: right;
+    font-family: MyFont;
+}
+
+.btn:hover {
+    background-color: #b7b7b7;
+    color: black;
+}
